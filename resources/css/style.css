@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+/*****************/
+/*****Header
+/*****************/
+
+#nav-bar {
+    padding-bottom: 180px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.left-links {
+    float: left;
+    margin: 23px 0 0 25px;
+    color: rgba(0,0,0,0.87);
+}
+
+.about {
+    padding-right: 15px;
+}
+
+.right-links {
+    float: right;
+    margin: 23px 25px 0 0;
+    color: rgba(0,0,0,0.87);
+}
+
+.images {
+    padding-left: 15px;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+/*****************/
+/*****Main********/
+/*****************/
+
+main {
+    text-align: center;
+    padding-top: 10px;
+}
