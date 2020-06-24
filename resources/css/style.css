@@ -54,6 +54,10 @@ main {
     padding-top: 10px;
 }
 
+.logo {
+    margin-bottom: 15px;
+}
+
 .search-bar {
     width: 582px;
     background: #fff;
@@ -81,6 +85,7 @@ input {
 
 .center {
     text-align: center;
+    margin-top: 20px;
 }
 
 .google-search {
@@ -120,19 +125,17 @@ input {
 }
 
 /*****************/
-****Footer
+/****Footer*******/
 /*****************/
 
-footer {
-    background-color: #f2f2f2;
+.fbar {
+    background: #f2f2f2;
     width: 100%;
-    position: fixed;
     left: 0;
     bottom: 0;
-}
-
-footer a {
-    color: #5f6368;
+    position: fixed;
+    height: 45px;
+    padding-bottom: 55px;
 }
 
 .left {
@@ -143,4 +146,14 @@ footer a {
 .right {
     float: right;
     margin: 23px 25px 0 0;
+}
+
+.left a {
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.right a {
+    font-size: 13px;
+    padding-right: 10px;
 }
